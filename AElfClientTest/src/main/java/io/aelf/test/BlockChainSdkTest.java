@@ -414,6 +414,7 @@ public class BlockChainSdkTest {
     return transactionObj;
   }
 
+
   private CreateRawTransactionInput createRowBuild(String toAddress, String methodName,
       String param, long height, String blockHash) {
     CreateRawTransactionInput createRawTransactionInputObj = new CreateRawTransactionInput();
